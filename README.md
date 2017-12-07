@@ -1,0 +1,2 @@
+# Yasola-vimrc
+my vimrc
