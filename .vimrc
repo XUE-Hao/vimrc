@@ -1,4 +1,6 @@
-syntax on " 自动语法高亮
+syntax enable " 自动语法高亮
+set background=dark
+"colorscheme solarized
 set cursorline " 突出显示当前行
 set nu
 
@@ -7,8 +9,6 @@ set shiftwidth=4
 set smarttab
 
 set cindent
-
-colo evening
 
 set nobackup
 set noswapfile
@@ -21,4 +21,3 @@ exec "!g++ % -o %<"
 exec "! ./%<"
 endfunc
 
-imap <c-]> {<cr>}<c-o>O<left><right>
