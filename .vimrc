@@ -2,6 +2,7 @@
 set  rtp+=/Library/Python/2.7/site-packages/powerline/bindings/vim/
 set laststatus=2 "总是显示状态栏
 set noshowmode " 不在原来位置显示mode
+set noswapfile " 取消swap文件
 
 " 使用solarized主题 github已收藏
 set t_Co=256
